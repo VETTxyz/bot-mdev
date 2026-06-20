@@ -1,5 +1,4 @@
 const { Client, GatewayIntentBits } = require('discord.js');
-require('dotenv').config();
 const config = require('./config');
 const commandHandler = require('./handlers/commandHandler');
 const slashCommandHandler = require('./handlers/slashCommandHandler');
